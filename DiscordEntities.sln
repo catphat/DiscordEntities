@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5C001F0-A00
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A3EEA933-330C-4FB4-8AD6-045499BEF928}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordEntities.Tests", "tests\DiscordEntities.Tests\DiscordEntities.Tests.csproj", "{168FC9BE-1C93-4B40-A09F-EF798BC721DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,8 +18,13 @@ Global
 		{CFCCD9CF-AB04-4871-8A99-521BAD370D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCCD9CF-AB04-4871-8A99-521BAD370D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCCD9CF-AB04-4871-8A99-521BAD370D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168FC9BE-1C93-4B40-A09F-EF798BC721DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168FC9BE-1C93-4B40-A09F-EF798BC721DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168FC9BE-1C93-4B40-A09F-EF798BC721DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168FC9BE-1C93-4B40-A09F-EF798BC721DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CFCCD9CF-AB04-4871-8A99-521BAD370D5C} = {E5C001F0-A006-40ED-819A-77D5E737EF97}
+		{168FC9BE-1C93-4B40-A09F-EF798BC721DB} = {A3EEA933-330C-4FB4-8AD6-045499BEF928}
 	EndGlobalSection
 EndGlobal
